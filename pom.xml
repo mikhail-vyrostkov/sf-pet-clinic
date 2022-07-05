@@ -5,7 +5,7 @@
 
     <groupId>vyrostkov.springframework</groupId>
     <artifactId>sf-pet-clinic</artifactId>
-    <version>0.0.3</version>
+    <version>0.0.4</version>
 
     <modules>
         <module>pet-clinic-data</module>
@@ -41,15 +41,15 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <configuration>
                     <goals>install</goals>
-<!--                    <autoVersionSubmodules>true</autoVersionSubmodules>-->
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
                 </configuration>
             </plugin>
         </plugins>
     </build>
 
     <scm>
-        <developerConnection>scm:git:github.com/mikhail-vyrostkov/sf-pet-clinic.git</developerConnection>
-        <tag>sf-pet-clinic-0.0.3</tag>
+        <developerConnection>scm:git:github.com:mikhail-vyrostkov/sf-pet-clinic.git</developerConnection>
+        <tag>HEAD</tag>
     </scm>
 
 </project>
