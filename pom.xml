@@ -48,7 +48,7 @@
     </build>
 
     <scm>
-        <developerConnection>scm:git:git@github.com:mikhail-vyrostkov/sf-pet-clinic.git</developerConnection>
+        <developerConnection>scm:git:github.com/mikhail-vyrostkov/sf-pet-clinic.git</developerConnection>
         <tag>sf-pet-clinic-0.0.3</tag>
     </scm>
 
