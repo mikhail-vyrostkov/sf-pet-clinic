@@ -6,15 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="sf-pet-clinic" />
+        <module name="pet-clinic-web" />
+        <module name="pet-clinic-data" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="sf-pet-clinic" target="11" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="pet-clinic-data" options="-parameters" />
+      <module name="pet-clinic-web" options="-parameters" />
       <module name="sf-pet-clinic" options="-parameters" />
     </option>
   </component>
