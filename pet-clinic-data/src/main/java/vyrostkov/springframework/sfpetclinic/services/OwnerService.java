@@ -1,4 +1,4 @@
-package vyrostkov.springframework.sfpetclinic.model.services;
+package vyrostkov.springframework.sfpetclinic.services;
 
 import vyrostkov.springframework.sfpetclinic.model.Owner;
 
