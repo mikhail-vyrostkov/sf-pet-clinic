@@ -1,13 +1,12 @@
 package vyrostkov.springframework.sfpetclinic.bootstrap;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 import vyrostkov.springframework.sfpetclinic.model.Owner;
 import vyrostkov.springframework.sfpetclinic.model.Vet;
 import vyrostkov.springframework.sfpetclinic.services.OwnerService;
 import vyrostkov.springframework.sfpetclinic.services.VetService;
-import vyrostkov.springframework.sfpetclinic.services.map.OwnerServiceMap;
-import vyrostkov.springframework.sfpetclinic.services.map.VetServiceMap;
 
 /**
  * Created by @m.vyrostkov on 19.08.2022 12:25
@@ -18,9 +17,10 @@ public class DataLoader implements CommandLineRunner {
     private final OwnerService ownerService;
     private final VetService vetService;
 
-    public DataLoader() {
-        ownerService = new OwnerServiceMap();
-        vetService = new VetServiceMap();
+
+    public DataLoader(OwnerService ownerService, VetService vetService) {
+        this.ownerService = ownerService;
+        this.vetService = vetService;
     }
 
     @Override

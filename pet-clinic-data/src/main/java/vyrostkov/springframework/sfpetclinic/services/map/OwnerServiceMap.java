@@ -1,5 +1,6 @@
 package vyrostkov.springframework.sfpetclinic.services.map;
 
+import org.springframework.stereotype.Service;
 import vyrostkov.springframework.sfpetclinic.model.Owner;
 import vyrostkov.springframework.sfpetclinic.services.OwnerService;
 
@@ -8,6 +9,7 @@ import java.util.Set;
 /**
  * Created by @m.vyrostkov on 09.07.2022 19:17
  */
+@Service
 public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService{
 
     @Override
