@@ -1,16 +1,14 @@
 package vyrostkov.springframework.sfpetclinic.services.map;
 
-import vyrostkov.springframework.sfpetclinic.model.Owner;
 import vyrostkov.springframework.sfpetclinic.model.Pet;
-import vyrostkov.springframework.sfpetclinic.model.Vet;
-import vyrostkov.springframework.sfpetclinic.services.CrudService;
+import vyrostkov.springframework.sfpetclinic.services.PetService;
 
 import java.util.Set;
 
 /**
  * Created by @m.vyrostkov on 09.07.2022 19:37
  */
-public class PetServiceMap extends AbstractMapService<Pet, Long> implements CrudService<Pet, Long> {
+public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
 
     @Override
     public Set<Pet> findAll() {
