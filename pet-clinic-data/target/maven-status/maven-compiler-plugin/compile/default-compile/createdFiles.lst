@@ -1,5 +1,14 @@
+vyrostkov\springframework\sfpetclinic\services\map\AbstractMapService.class
+vyrostkov\springframework\sfpetclinic\services\OwnerService.class
+vyrostkov\springframework\sfpetclinic\services\CrudService.class
 vyrostkov\springframework\sfpetclinic\model\Pet.class
 vyrostkov\springframework\sfpetclinic\model\Owner.class
 vyrostkov\springframework\sfpetclinic\model\Person.class
 vyrostkov\springframework\sfpetclinic\model\PetType.class
+vyrostkov\springframework\sfpetclinic\services\map\VetServiceMap.class
+vyrostkov\springframework\sfpetclinic\model\BaseEntity.class
 vyrostkov\springframework\sfpetclinic\model\Vet.class
+vyrostkov\springframework\sfpetclinic\services\map\OwnerServiceMap.class
+vyrostkov\springframework\sfpetclinic\services\PetService.class
+vyrostkov\springframework\sfpetclinic\services\VetService.class
+vyrostkov\springframework\sfpetclinic\services\map\PetServiceMap.class

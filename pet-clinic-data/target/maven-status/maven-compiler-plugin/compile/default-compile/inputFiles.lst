@@ -1,5 +1,14 @@
-C:\Users\m.vyrostkov\SpringFramework_beginner_to_guru\sf-pet-clinic\pet-clinic-data\src\main\java\vyrostkov\springframework\sfpetclinic\model\PetType.java
+C:\Users\m.vyrostkov\SpringFramework_beginner_to_guru\sf-pet-clinic\pet-clinic-data\src\main\java\vyrostkov\springframework\sfpetclinic\services\map\OwnerServiceMap.java
 C:\Users\m.vyrostkov\SpringFramework_beginner_to_guru\sf-pet-clinic\pet-clinic-data\src\main\java\vyrostkov\springframework\sfpetclinic\model\Vet.java
-C:\Users\m.vyrostkov\SpringFramework_beginner_to_guru\sf-pet-clinic\pet-clinic-data\src\main\java\vyrostkov\springframework\sfpetclinic\model\Person.java
 C:\Users\m.vyrostkov\SpringFramework_beginner_to_guru\sf-pet-clinic\pet-clinic-data\src\main\java\vyrostkov\springframework\sfpetclinic\model\Pet.java
+C:\Users\m.vyrostkov\SpringFramework_beginner_to_guru\sf-pet-clinic\pet-clinic-data\src\main\java\vyrostkov\springframework\sfpetclinic\services\PetService.java
 C:\Users\m.vyrostkov\SpringFramework_beginner_to_guru\sf-pet-clinic\pet-clinic-data\src\main\java\vyrostkov\springframework\sfpetclinic\model\Owner.java
+C:\Users\m.vyrostkov\SpringFramework_beginner_to_guru\sf-pet-clinic\pet-clinic-data\src\main\java\vyrostkov\springframework\sfpetclinic\services\VetService.java
+C:\Users\m.vyrostkov\SpringFramework_beginner_to_guru\sf-pet-clinic\pet-clinic-data\src\main\java\vyrostkov\springframework\sfpetclinic\model\PetType.java
+C:\Users\m.vyrostkov\SpringFramework_beginner_to_guru\sf-pet-clinic\pet-clinic-data\src\main\java\vyrostkov\springframework\sfpetclinic\services\map\AbstractMapService.java
+C:\Users\m.vyrostkov\SpringFramework_beginner_to_guru\sf-pet-clinic\pet-clinic-data\src\main\java\vyrostkov\springframework\sfpetclinic\services\OwnerService.java
+C:\Users\m.vyrostkov\SpringFramework_beginner_to_guru\sf-pet-clinic\pet-clinic-data\src\main\java\vyrostkov\springframework\sfpetclinic\services\map\VetServiceMap.java
+C:\Users\m.vyrostkov\SpringFramework_beginner_to_guru\sf-pet-clinic\pet-clinic-data\src\main\java\vyrostkov\springframework\sfpetclinic\model\Person.java
+C:\Users\m.vyrostkov\SpringFramework_beginner_to_guru\sf-pet-clinic\pet-clinic-data\src\main\java\vyrostkov\springframework\sfpetclinic\services\map\PetServiceMap.java
+C:\Users\m.vyrostkov\SpringFramework_beginner_to_guru\sf-pet-clinic\pet-clinic-data\src\main\java\vyrostkov\springframework\sfpetclinic\model\BaseEntity.java
+C:\Users\m.vyrostkov\SpringFramework_beginner_to_guru\sf-pet-clinic\pet-clinic-data\src\main\java\vyrostkov\springframework\sfpetclinic\services\CrudService.java
