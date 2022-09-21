@@ -1,5 +1,6 @@
 package vyrostkov.springframework.sfpetclinic.services.map;
 
+import org.springframework.stereotype.Service;
 import vyrostkov.springframework.sfpetclinic.model.Speciality;
 import vyrostkov.springframework.sfpetclinic.services.SpecialityService;
 
@@ -8,6 +9,7 @@ import java.util.Set;
 /**
  * Created by @m.vyrostkov on 19.09.2022 18:26
  */
+@Service
 public class SpecialityServiceMap extends AbstractMapService<Speciality, Long> implements SpecialityService {
 
     @Override
