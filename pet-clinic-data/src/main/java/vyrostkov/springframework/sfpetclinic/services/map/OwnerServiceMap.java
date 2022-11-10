@@ -1,5 +1,6 @@
 package vyrostkov.springframework.sfpetclinic.services.map;
 
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 import vyrostkov.springframework.sfpetclinic.model.Owner;
 import vyrostkov.springframework.sfpetclinic.model.Pet;
