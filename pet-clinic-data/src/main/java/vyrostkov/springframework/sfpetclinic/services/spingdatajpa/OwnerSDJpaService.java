@@ -16,7 +16,7 @@ import java.util.Set;
  * Created by @m.vyrostkov on 10.11.2022 17:38
  */
 @Service
-@Profile("spengdatajpa")
+@Profile("springdatajpa")
 public class OwnerSDJpaService implements OwnerService {
 
     private final OwnerRepository ownerRepository;
