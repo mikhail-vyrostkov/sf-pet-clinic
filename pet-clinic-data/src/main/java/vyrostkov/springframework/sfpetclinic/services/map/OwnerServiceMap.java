@@ -56,7 +56,7 @@ public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements 
                     } else {
                         throw new RuntimeException("Pet Type is required");
                     }
-                    if (pet.getId() == null){
+                    if (pet.getId() == null) {
                         Pet savedPet = petService.save(pet);
                         pet.setId(savedPet.getId());
                     }
@@ -70,6 +70,9 @@ public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements 
 
     @Override
     public Owner findByLastName(String lastName) {
-        return null;
+        return this.findAll().stream()
+                .filter(owner -> owner.getLastName().equalsIgnoreCase(lastName))
+                .findFirst()
+                .orElse(null);
     }
 }
