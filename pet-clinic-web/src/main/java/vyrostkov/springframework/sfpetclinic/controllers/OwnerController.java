@@ -8,7 +8,7 @@ import vyrostkov.springframework.sfpetclinic.services.OwnerService;
 /**
  * Created by @m.vyrostkov on 08.08.2022 18:05
  */
-@RequestMapping("owners")
+@RequestMapping("/owners")
 @Controller
 public class OwnerController {
 
